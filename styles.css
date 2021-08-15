@@ -1,0 +1,52 @@
+.post{
+    border: 2px solid black;
+    width: 320px;
+    height: 420px;
+}
+.post-header{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    
+}
+.post-header img{
+    width: 20px;
+    height: 25px;
+    padding: 10px;
+}
+.text{
+    width: 81%;
+}
+.post-header p{
+    padding-top: 5px;
+    margin-block: auto;
+}
+.space{
+    padding-top: 10px;
+}
+.fa,
+.far,
+.fas{
+    font-family: 'font awesome 5 free';
+    font-weight: 900;
+    font-size: 1.5em;
+}
+.post-body img{
+    width: 320px
+}
+.heart{
+    padding-right: 2.5px;
+    
+}
+.comment{
+    padding-right: 2.5px;
+}
+.message{
+    width: 70%;
+}
+.post-footer p{
+    font-size: 0.7em;
+}
+.post-footer{
+    padding: 10px;
+}
